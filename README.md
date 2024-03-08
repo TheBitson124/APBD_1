@@ -1,2 +1,2 @@
-# APBD_1
-apbd ćwiczenia 1
+# APBD_2
+apbd ćwiczenia 2

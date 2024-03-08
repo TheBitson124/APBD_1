@@ -14,3 +14,7 @@ static double GetAverage(int[] tab)
     }
     return avg/tab.Length;;
 }
+
+int[] tab = { 1,2,3,4};
+double avg = GetAverage(tab);
+Console.WriteLine(avg);

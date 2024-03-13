@@ -7,12 +7,12 @@ Console.WriteLine("bruh");
 
 static double GetAverage(int[] tab)
 {
-    double avg = 0.0;
+    double srednia = 0.0;
     foreach (int number in tab)
     {
-        avg += number;
+        srednia += number;
     }
-    return avg/tab.Length;;
+    return srednia/tab.Length;;
 }
 
 int[] tab = { 1,2,3,4};

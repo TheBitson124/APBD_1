@@ -18,3 +18,15 @@ static double GetAverage(int[] tab)
 int[] tab = { 1,2,3,4};
 double avg = GetAverage(tab);
 Console.WriteLine(avg);
+
+static int GetMax(int[] tab)
+{
+    int max = 0;
+    foreach (int number in tab)
+    {
+        max = number > max ? number : max;
+    }
+    return max;
+
+}
+Console.WriteLine(GetMax(tab));
